@@ -1,0 +1,39 @@
+/* this is for the skeleton of the website. Includes size of side bar, graphs, and extra space for now. */
+.flex-header {
+    display: flex;
+    align-items: stretch;
+    background: red;
+    height: 50px;
+    margin-bottom: 3%;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    min-height: 100%;
+    align-items: stretch;
+    column-gap: 3%;
+}
+.flex-item {
+    display: flex;
+    flex: 80%;
+    flex-wrap: wrap;
+}
+
+#sidebar-left {
+    display: flex;
+    background: yellow;
+    order: -1;
+    flex: 20%;
+}
+
+#resources {
+    background: green;
+    order: 1;
+}
+
+#energy-summary {
+    background-color: green;
+    order: 2;
+}
+
