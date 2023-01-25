@@ -10,31 +10,33 @@
 .flex-container {
   display: flex;
   flex-direction: row;
-  min-height: 100%;
   align-items: stretch;
   -moz-column-gap: 3%;
        column-gap: 3%;
 }
 
-.flex-item {
-  display: flex;
-  flex: 80%;
-  flex-wrap: wrap;
-}
-
-#sidebar-left {
+.flex-sidebar-left {
   display: flex;
   background: yellow;
-  order: -1;
-  flex: 20%;
+  width: 20%;
+}
+
+.flex-body {
+  float: left;
+  padding: 3%;
+  width: 80%;
 }
 
 #resources {
   background: green;
-  order: 1;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #energy-summary {
   background-color: green;
-  order: 2;
+}
+
+#micro-calcs {
+  background-color: green;
 }/*# sourceMappingURL=mycss.css.map */

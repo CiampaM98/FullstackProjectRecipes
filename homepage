@@ -12,19 +12,20 @@
 
    <div class="flex-container">
       <!--this is the sidebar-->
-      <div id="sidebar-left">
+      <div class="flex-sidebar-left">
          <p>SIDEBAR</p>
       </div>
 
       <!--this is the main body-->
-      <div class="flex-item" id="resources">
-         <div>
+      <div class="flex-body">
+         <div id="resources">
             <p>Food Selection</p>
          </div>
-      </div>
-      <div class="flex-item">
-         <div>
-            <p>Energy Calculator</p>
+         <div id="energy-summary">
+            <p>Energy Summary & Macro Summary</p>
+         </div>
+         <div id="micro-calcs">
+            <p>Micro Summary</p>
          </div>
       </div>
    </div>
